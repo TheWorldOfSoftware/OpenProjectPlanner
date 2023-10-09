@@ -8,6 +8,6 @@ importers:
 
   .: {}
 
-  OpenProjectPlanner-API: {}
+  packages/OpenProjectPlanner-API: {}
 
-  OpenProjectPlanner-Portal: {}
+  packages/OpenProjectPlanner-Portal: {}
