@@ -1,2 +1,3 @@
 # OpenProjectPlanner
-The official OpenProjectPlanner monorepo, managed and maintained by the OpenSoftwareFoundation.
+
+The official OpenProjectPlanner monorepo, managed and maintained by the OpenSoftwareCorp.
