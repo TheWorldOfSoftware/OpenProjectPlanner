@@ -1,10 +1,11 @@
 {
   "name": "openprojectplanner",
   "version": "1.0.0",
-  "description": "The official OpenProjectPlanner monorepo, managed and maintained by the OpenSoftwareCorp.",
+  "description": "The official OpenProjectPlanner monorepo, managed and maintained by the OpenSoftware corporation and community.",
   "keywords": [
+    "OpenSoftware",
     "OpenSoftwareCorp",
-    "OSF",
+    "OSC",
     "open source",
     "global operations",
     "OpenProjectPlanner",
