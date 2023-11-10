@@ -25,5 +25,8 @@
   "engines": {
     "node": ">=18.17.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
