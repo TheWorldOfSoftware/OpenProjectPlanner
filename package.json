@@ -1,11 +1,10 @@
 {
-  "name": "@opensoftware/openprojectplanner",
+  "name": "@worldofsoftware/openprojectplanner",
   "version": "1.0.0",
-  "description": "The official OpenProjectPlanner monorepo, managed and maintained by the OpenSoftware corporation and community.",
+  "description": "The official OpenProjectPlanner monorepo, managed and maintained by the World of Software corporation and community.",
   "keywords": [
-    "OpenSoftware",
-    "OpenSoftwareCorp",
-    "OSC",
+    "WorldOfSoftware",
+    "WOS",
     "open source",
     "global operations",
     "OpenProjectPlanner",
@@ -16,7 +15,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/OpenSoftwareCorp/OpenProjectPlanner.git"
+    "url": "git+ssh://git@github.com/TheWorldOfSoftware/OpenProjectPlanner.git"
   },
   "type": "module",
   "files": [

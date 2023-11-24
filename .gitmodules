@@ -1,6 +1,6 @@
 [submodule "packages/OpenProjectPlanner-Portal"]
 	path = packages/OpenProjectPlanner-Portal
-	url = git@github.com:OpenSoftwareCorp/OpenProjectPlanner-Portal.git
+	url = git@github.com:TheWorldOfSoftware/OpenProjectPlanner-Portal.git
 [submodule "packages/OpenProjectPlanner-API"]
 	path = packages/OpenProjectPlanner-API
-	url = git@github.com:OpenSoftwareCorp/OpenProjectPlanner-API.git
+	url = git@github.com:TheWorldOfSoftware/OpenProjectPlanner-API.git
