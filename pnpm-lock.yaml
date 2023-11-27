@@ -11,6 +11,10 @@ importers:
       dotenv:
         specifier: ^16.3.1
         version: 16.3.1
+    devDependencies:
+      '@types/node':
+        specifier: ^20.10.0
+        version: 20.10.0
 
   packages/OpenProjectPlanner-API:
     dependencies:
@@ -26,13 +30,16 @@ importers:
       mysql2:
         specifier: ^3.6.3
         version: 3.6.3
+      uuid:
+        specifier: ^9.0.1
+        version: 9.0.1
       zod:
         specifier: ^3.22.4
         version: 3.22.4
     devDependencies:
-      '@types/node':
-        specifier: ^18.18.7
-        version: 18.18.7
+      '@types/uuid':
+        specifier: ^9.0.7
+        version: 9.0.7
 
   packages/OpenProjectPlanner-Portal: {}
 
@@ -177,10 +184,14 @@ packages:
       - encoding
     dev: false
 
-  /@types/node@18.18.7:
-    resolution: {integrity: sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==}
+  /@types/node@20.10.0:
+    resolution: {integrity: sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==}
     dependencies:
       undici-types: 5.26.5
+    dev: true
+
+  /@types/uuid@9.0.7:
+    resolution: {integrity: sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g==}
     dev: true
 
   /abort-controller@3.0.0:
@@ -730,6 +741,11 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.0
+    dev: false
+
+  /uuid@9.0.1:
+    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    hasBin: true
     dev: false
 
   /webidl-conversions@3.0.1:
