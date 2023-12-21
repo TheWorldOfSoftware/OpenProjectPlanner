@@ -27,5 +27,22 @@ export default [
         }
       ]
     }
+  },
+  {
+    files: ["packages/OpenProjectPlanner-API/src/routes/decorators/*.ts"],
+    rules: {
+      "@typescript-eslint/naming-convention": [
+        "error",
+        ...tsOverrides.namingConvention,
+        {
+          modifiers: ["global"],
+          selector: "variable",
+
+          format: ["StrictPascalCase"],
+          leadingUnderscore: "forbid",
+          trailingUnderscore: "forbid"
+        }
+      ]
+    }
   }
 ];
