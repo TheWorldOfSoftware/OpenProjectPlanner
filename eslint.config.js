@@ -29,6 +29,22 @@ export default [
     }
   },
   {
+    files: [
+      "packages/OpenProjectPlanner-API/src/repositories/sources/*/tables/*.ts"
+    ],
+    rules: {
+      "@typescript-eslint/naming-convention": [
+        "error",
+        ...tsOverrides.namingConvention,
+        {
+          selector: "typeProperty",
+
+          format: ["StrictPascalCase"]
+        }
+      ]
+    }
+  },
+  {
     files: ["packages/OpenProjectPlanner-API/src/routes/decorators/*.ts"],
     rules: {
       "@typescript-eslint/naming-convention": [
@@ -38,9 +54,7 @@ export default [
           modifiers: ["global"],
           selector: "variable",
 
-          format: ["StrictPascalCase"],
-          leadingUnderscore: "forbid",
-          trailingUnderscore: "forbid"
+          format: ["StrictPascalCase"]
         }
       ]
     }
