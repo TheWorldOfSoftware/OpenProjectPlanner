@@ -12,15 +12,11 @@
   ],
   "license": "AGPL-3.0-or-later",
   "author": "Scraps",
-  "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/TheWorldOfSoftware/OpenProjectPlanner.git"
   },
   "type": "module",
-  "files": [
-    ""
-  ],
   "engines": {
     "node": ">=18.17.0"
   },
