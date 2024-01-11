@@ -23,8 +23,12 @@
   "private": true,
   "scripts": {
     "format": "prettier . --write",
+    "format:api": "pnpm --filter \"./packages/OpenProjectPlanner-API/**\" run lint",
+    "format:all": "pnpm --filter \"./packages/**\" run lint",
     "lint": "eslint . --fix",
-    "precommit": "pnpm run format"
+    "lint:api": "pnpm --filter \"./packages/OpenProjectPlanner-API/**\" run lint",
+    "lint:all": "pnpm --filter \"./packages.** run lint",
+    "precommit": "pnpm run format:all"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
