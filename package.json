@@ -27,14 +27,15 @@
   "private": true,
   "scripts": {
     "format": "prettier . --write",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "precommit": "pnpm run format"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.10.0",
-    "eslint": "^8.55.0",
+    "@types/node": "^20.11.0",
+    "eslint": "^8.56.0",
     "prettier": "^3.1.1"
   }
 }
