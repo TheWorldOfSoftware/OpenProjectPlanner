@@ -1,4 +1,0 @@
-{
-  "extends": "./node_modules/@worldofsoftware/configs/configs/typescript/tsconfig.json",
-  "include": ["./packages/**/*"]
-}
