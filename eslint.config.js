@@ -1,4 +1,4 @@
-import eslintConfig, { tsOverrides } from "@worldofsoftware/configs/eslint";
+import eslintConfig from "@worldofsoftware/configs/eslint";
 
 export default [
   ...eslintConfig,
@@ -17,7 +17,6 @@ export default [
     rules: {
       "@typescript-eslint/naming-convention": [
         "error",
-        ...tsOverrides.namingConvention,
         {
           selector: "objectLiteralProperty",
 
@@ -35,7 +34,6 @@ export default [
     rules: {
       "@typescript-eslint/naming-convention": [
         "error",
-        ...tsOverrides.namingConvention,
         {
           selector: "typeProperty",
 
@@ -49,7 +47,6 @@ export default [
     rules: {
       "@typescript-eslint/naming-convention": [
         "error",
-        ...tsOverrides.namingConvention,
         {
           modifiers: ["global"],
           selector: "variable",
