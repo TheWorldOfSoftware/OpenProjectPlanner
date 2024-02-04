@@ -31,7 +31,7 @@
     "precommit": "pnpm run format:all"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.4.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
