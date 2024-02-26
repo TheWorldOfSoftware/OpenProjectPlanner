@@ -1,6 +1,5 @@
 import eslintConfig from "@worldofsoftware/configs/eslint";
-import typescriptParser from "@typescript-eslint/parser";
-import typescriptPlugin from "@typescript-eslint/eslint-plugin";
+import tsESLint from "typescript-eslint";
 
 export default [
   ...eslintConfig,
@@ -11,10 +10,10 @@ export default [
       ecmaVersion: "latest",
       sourceType: "module",
 
-      parser: typescriptParser
+      parser: tsESLint.parser
     },
     plugins: {
-      "@typescript-eslint": typescriptPlugin
+      "@typescript-eslint": tsESLint.plugin
     },
     rules: {
       "new-cap": ["warn", { capIsNew: false }],
